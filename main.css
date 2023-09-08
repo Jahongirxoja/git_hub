@@ -1,0 +1,39 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style     : none;
+    display        : flex;
+    justify-content: space-around;
+}
+
+
+a {
+    text-decoration: none;
+    color          : black;
+    transition     : 400ms;
+}
+
+a:hover {
+    color: rgb(231, 21, 21);
+}
+
+
+p {
+    color: green;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+div {
+    padding-top: 70px;
+    width      : 600px;
+    margin     : auto;
+    text-align : center;
+}
